@@ -1,0 +1,28 @@
+body{
+    display: flex;
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    background-image: conic-gradient(red 0deg, red 45deg, yellow 45deg, yellow 90deg, green 90deg, green 135deg, purple 135deg, purple 180deg, brown 180deg, brown 225deg, blue 225deg, blue 270deg, pink 270deg, pink 315deg, black 315deg, black 360deg);
+    border-radius: 170px; 
+}
+
+div:hover {
+    cursor: pointer;
+    animation: 1s linear infinite rot;
+}
+  @keyframes rot {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+p{
+    margin-left: 5px;
+    margin-top: 110px;
+    font-size: xx-large;
+}

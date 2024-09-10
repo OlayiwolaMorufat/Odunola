@@ -1,0 +1,117 @@
+body{
+    background-color: whitesmoke;
+    
+}
+
+.mother{
+    background-color: whitesmoke;
+    display: flex;
+    height: 500px;
+    overflow: hidden;
+}
+.imageicon{
+    display: grid;
+    justify-content: center;
+    background-color: white;
+    height: 492px;
+    width: 250px;
+    border-color: rgb(224, 217, 217);
+    overflow: hidden;
+}
+.image{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+}
+
+
+.pb1{
+    width: 100%;
+}
+
+.content-container{
+    position: absolute;
+    right: 510px;
+    top: 8px;
+    background-color: white;
+    width: 600px;
+}
+.love{
+    position: absolute;
+    left: 560px;
+    top: 20px;
+    font-size: large;
+    color: orange;
+}
+
+
+.a-official{
+    text-decoration: none;
+}
+
+.paragraph{
+    width: 550px;
+    font-size: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+.links-defacto{
+    display: flex;
+    gap: 10px;
+}
+.a-defacto{
+    text-decoration: none;
+}    
+.price{
+    border: 2px solid red;
+    height: 80px;
+    border-radius: 4px;
+}
+.flash-sale{
+    overflow: hidden;
+    color: white;
+    background-color: red;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    display: flex;
+}
+
+.new-price{
+    font-size: 25px;
+}
+.bar-1{
+    display: flex;
+    gap: 10px;
+}
+.orange{
+    background-color: orange;
+    width: 580px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color:  white;
+    margin: 5px;
+    box-shadow: 5px 5px 25px 5px rgb(212, 198, 198);
+    gap: 50px;
+}    
+.promo{
+    color: blue;
+}
+
+
+.header{
+    height: 20px;
+    margin: 5px; 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 30px; */
+    color: white;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgb(212, 7, 7);
+    font-size: larger;
+    width: 1260px;
+    gap: 400px;
+}

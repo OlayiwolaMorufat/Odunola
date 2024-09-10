@@ -1,0 +1,21 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* transform: rotate(70deg); */
+    transition: 4s;
+    /* transition-delay: 2s; */
+    transition-property: width, height, background-color;
+}
+.box:hover{
+    /* transform: scale(2); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: translate(10px,10px ); */
+    /* transform: rotateX(70deg); */
+    /* transform: rotateY(70deg); */
+    transform: rotateZ(70deg);
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
